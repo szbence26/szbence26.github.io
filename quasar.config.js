@@ -196,5 +196,10 @@ module.exports = configure(function (/* ctx */) {
       // extendBexScriptsConf (esbuildConf) {}
       // extendBexManifestJson (json) {}
     },
+
+    // Add favicon configuration
+    htmlVariables: {
+      favicons: "",
+    },
   };
 });
