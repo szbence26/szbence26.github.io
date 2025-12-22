@@ -25,7 +25,7 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        uses: szbence26/szbence26.github.io@main
+        uses: JamesIves/github-pages-deploy-action@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_BRANCH: master
